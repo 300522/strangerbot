@@ -348,7 +348,7 @@ func retrieveOrCreateUser(chatID int64) (User, error) {
 			return u, err
 		}
 
-		telegram.SendMessage(chatID, `Welcome to the NUS Match Bot—to match with others in the same/different faculty! You can choose to match with batchmates, seniors or juniors, whether you want to meet new ppl, get academic advice, find study buddies or just have a quick convo! You will be anonymous until you choose to share your tele handle! :D
+		telegram.SendMessage(chatID, `Welcome to the SMU Match Bot—to match with others in the same/different faculty! You can choose to match with batchmates, seniors or juniors, whether you want to meet new ppl, get academic advice, find study buddies or just have a quick convo! You will be anonymous until you choose to share your tele handle! :D
 
                 First, configure your profile AND match's settings:
 
